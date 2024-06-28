@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>evt_conversion</name>
+  <version>1.0.0</version>
+  <description>conversion tools for event camera data files</description>
+  <maintainer email="bernd.pfrommer@gmail.com">Bernd Pfrommer</maintainer>
+  <license>Apache2</license>
+  <depend>clang-tidy</depend>
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+
+</package>
