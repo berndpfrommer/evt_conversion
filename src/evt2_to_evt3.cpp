@@ -376,9 +376,6 @@ int main(int argc, char ** argv)
     }
     bytesRead += in.gcount();
     processor.flush();
-    if (processor.getNumEvents()[0] > 1000000) {
-      break;
-    }
   } while (in.gcount() >= std::streamsize(buffer.size()));
 
   const decltype(start) final = std::chrono::high_resolution_clock::now();
